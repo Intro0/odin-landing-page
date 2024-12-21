@@ -56,10 +56,8 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 15%;
-    padding-right: 15%;
-
-
+    /* Left/Right padding at 15%, Top/Bottom at 4rem */
+    padding: 6rem 15%;
 }
 
 .hero-text {
@@ -69,18 +67,22 @@ nav ul {
 /* Headings in hero */
 .hero-text h2 {
     color: #F9FAF8;
-    font-size: 48px; 
+    font-size: 48px;
+    /* Reset default margin and add custom bottom margin */
+    margin: 0 0 1rem;
 }
 
 /* Subtext in hero */
 .hero-secondary-text {
     color: #E5E7EB;
     font-size: 18px;
+    /* Reset default margin for paragraphs and add custom bottom margin */
+    margin: 0 0 1.5rem;
 }
 
 /* Placeholder for image side */
 .hero-image {
-    width: 300px;
+    width: 400px;
     height: 200px;
     background-color: gray;
     display: flex;
@@ -94,6 +96,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     background-color: gray;
+    color: #F9FAF8;
 }
 
 /* ------------------------
