@@ -120,7 +120,8 @@ button {
 ------------------------ */
 .info{
     background-color: white;
-    padding: 2rem 15%;
+    padding: 2rem 20%;
+    padding-bottom: 6rem;
 }
 
 .info h2{
@@ -139,12 +140,27 @@ button {
 
 .card-placeholder{
     border: 4px solid #4f70ff;
-    height: 200px;
+    height: 150px;
     border-radius: 10px;
 }
 
 .info-card p{
-    width: 100%;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 3rem 20%;
+}
+
+.quote-section p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-section h3{
+    text-align: right;
 }
